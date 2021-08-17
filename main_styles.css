@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&display=swap');
+
+body{
+    width: 100vw;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+header{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: minmax(65, 75) 1fr 1fr;
+    width: 100%;
+    justify-content: center;
+}
+#header-img{
+    width: 80%;
+    min-width: 256px;
+    max-width: 300px;
+    margin: 10px 0;
+    justify-self: center;
+}
+#title-div{
+    text-align: center;
+    background-color: #f4f3f1;
+}
+#title-div h1{
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 10%;
+}
+#title-div p{
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: lighter;
+}
+#nav-link{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#nav-link a{
+    min-width: 80px;
+    padding: 10px 0px;
+    text-align: center;
+    color: #959595;
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+#nav-link a:hover{
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main-photo{
+    width: 100%;
+    min-width: 320px;
+    max-width: 1000px;
+}

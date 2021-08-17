@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ATH-AWKT | Product Landing Page</title>
+    <link rel="stylesheet" href="./main_styles.css">
 </head>
 <body>
     <header id="header">
         <img src="./assets/icons/company-logo.png" alt="Company logo" id="header-img">
-        <h1>ATH-AWKT</h1>
-        <h2>Audiophile Closed-back Dynamic Wooden Headphones</h2>
+        <div id="title-div">
+            <h1>ATH-AWKT /</h1>
+            <p>Dynamic Wooden Headphones</p>
+        </div>
         <nav id="nav-link">
-            <a href="" class="nav-link">
+            <a href="#features" class="nav-link">
                 Features
             </a>
             <a href="" class="nav-link">
@@ -24,17 +27,51 @@
             <a href="" class="nav-link">
                 Registration
             </a>
+        </nav>
+        <main>
+            <img src="./assets/images/headphones-image.png" alt="ATH-AWKT headphones photo" id="main-photo">
             <article id="features">
-
+                <article id="features">
+                    <h2>Features</h2>
+                    <ul>
+                        <li>
+                            Kokutan (striped ebony) housings, hand-finished with half-gloss, suppress unwanted resonance for clear, natural sound reproduction
+                        </li>
+                        <li>
+                            Exclusive 53 mm driver units with highly efficient German Permendur magnetic circuitry deliver powerful audio with a wide sound field
+                        </li>
+                        <li>
+                            Driver’s lightweight, durable titanium flange allows the diaphragm to react to the signal more accurately
+                        </li>
+                        <li>
+                            6N-OFC (high-purity, oxygen-free copper) voice coil provides ideal signal transfer
+                        </li>
+                        <li>
+                            D.A.D.S. (Double Air Damping System) structure provides deep bass reproduction
+                        </li>                   
+                        <li>
+                            Two detachable 3.0 m (9.8') cables with A2DC (Audio Designed Detachable Coaxial) connectors at the headphones: one with a 6.3 mm (1/4") gold-plated stereo plug, the other with a 4-pin XLRM balanced connector
+                        </li>
+                        <li>
+                            Magnesium alloy headphone arm is angled to provide the best possible fit with excellent earcup seal
+                        </li>
+                        <li>
+                            Stitched ergonomic earpads and headband are made from smooth, high-durability sheep skin for long-lasting comfort
+                        </li>
+                        <li>
+                            Japanese craftsmanship: all Audio-Technica wooden headphones are hand-assembled in Tokyo
+                        </li>
+                    </ul>
+                </article>
             </article>
             <form action="https://www.freecodecamp.com/email-submit" id="form">
                 <input type="email" id="email" placeholder="example@mail.com">
                 <button type="submit" id="submit">Recive our news</button>
             </form>
-            <video src="" id="video">
+        </main>
+        <video src="" id="video">
 
-            </video>
-        </nav>
+        </video>
     </header>
 </body>
 </html>
